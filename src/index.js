@@ -2,6 +2,29 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 
+const socialMedia = [
+    {
+        icon: "fa-facebook",
+        href: "https://www.facebook.com/riyandacavin.sinambela",
+    },
+    {
+        icon: "fa-linkedin",
+        href: "https://www.linkedin.com/in/riyanda-cavin-sinambela/",
+    },
+    {
+        icon: "fa-github",
+        href: "https://github.com/Rycs123",
+    },
+    {
+        icon: "fa-twitter",
+        href: "https://twitter.com/ph0rce_here",
+    },
+    {
+        icon: "fa-instagram",
+        href: "https://instagram.com/riyanda.sinambela",
+    },
+];
+
 function App() {
     return (
         <div className="card">
