@@ -20,8 +20,12 @@ function App() {
 function Header() {
     return (
         <>
-            <SocialButton />
-            <SocialButtonRight />
+            <div className="social-buttons">
+                <SocialButton />
+            </div>
+            <div className="social-buttons right">
+                <SocialButtonRight />
+            </div>
         </>
     );
 }
