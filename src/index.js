@@ -72,6 +72,16 @@ function Biodata() {
     );
 }
 
+function HighlightText({ text, icon }) {
+    return (
+        <button>
+            <div className="height">
+                <i className={`fa-solid ${icon}`}>{text}</i>
+            </div>
+        </button>
+    );
+}
+
 function Highlight() {
     return (
         <div className="buttons">
