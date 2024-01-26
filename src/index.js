@@ -21,10 +21,13 @@ function Header() {
     return (
         <>
             <div className="social-buttons">
-                <SocialButton />
+                <SocialButton icon="fa-facebook" />
+                <SocialButton icon="fa-linkedin" />
+                <SocialButton icon="fa-instagram" />
             </div>
             <div className="social-buttons right">
-                <SocialButtonRight />
+                <SocialButtonRight icon="fa-github" />
+                <SocialButtonRight icon="fa-twitter" />
             </div>
         </>
     );
