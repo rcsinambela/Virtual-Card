@@ -61,8 +61,10 @@ function Biodata() {
     return (
         <div className="desc">
             <p>
-                Hi, my name is Riyanda Cavin Sinambela and you can call me Kevin
+                Hi, my name is <b>Riyanda Cavin Sinambela</b> and you can call
+                me Kevin.
             </p>
+            <p>I am a software engineer and cyber security enthusiast.</p>
         </div>
     );
 }
