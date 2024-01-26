@@ -75,14 +75,8 @@ function Biodata() {
 function Highlight() {
     return (
         <div className="buttons">
-            <button>
-                <i class="fa-solid fa-school"></i>
-                &nbsp; ITS
-            </button>
-            <button>
-                <i class="fa-solid fa-book-open"></i>
-                &nbsp; Computer Science
-            </button>
+            <HighlightText icon="fa-school" text="ITS" />
+            <HighlightText icon="fa-book-open" text="Computer Science" />
         </div>
     );
 }
