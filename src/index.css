@@ -169,3 +169,7 @@ body {
 .card .bottom .buttons button:hover {
     filter: brightness(110%);
 }
+
+.card .bottom .buttons .height i {
+    font-size: 0.7rem;
+}
