@@ -30,19 +30,11 @@ function Header() {
     );
 }
 
-function SocialButton() {
+function SocialButton({ icon }) {
     return (
-        <div className="social-buttons">
-            <button>
-                <i className="fa-brands fa-facebook"></i>
-            </button>
-            <button>
-                <i class="fa-brands fa-linkedin"></i>
-            </button>
-            <button>
-                <i class="fa-brands fa-instagram"></i>
-            </button>
-        </div>
+        <button>
+            <i className={`fa-brands ${icon}`}></i>
+        </button>
     );
 }
 
