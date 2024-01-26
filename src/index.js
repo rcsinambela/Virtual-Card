@@ -76,7 +76,7 @@ function HighlightText({ text, icon }) {
     return (
         <button>
             <div className="height">
-                <i className={`fa-solid ${icon}`}>{text}</i>
+                <i className={`fa-solid ${icon}`}>&nbsp; {text}</i>
             </div>
         </button>
     );
