@@ -61,9 +61,9 @@ function Header() {
     );
 }
 
-function SocialButton({ icon }) {
+function SocialButton({ icon, link }) {
     return (
-        <button>
+        <button onClick={() => window.open(link, "_blank")}>
             <i className={`fa-brands ${icon}`}></i>
         </button>
     );
