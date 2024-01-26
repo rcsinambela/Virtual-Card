@@ -41,16 +41,21 @@ function App() {
 }
 
 function Header() {
+    const middleIndex = Math.ceil(socialMedia.length / 2);
+    const socialMediaLeft = socialMedia.slice(0, middleIndex);
+    const socialMediaRight = socialMedia.slice(middleIndex);
+
     return (
         <>
             <div className="social-buttons">
-                <SocialButton icon="fa-facebook" />
-                <SocialButton icon="fa-linkedin" />
-                <SocialButton icon="fa-instagram" />
+                {socialMediaLeft.map((data, index) => (
+                    <SocialButton icon={data.icon} link={data.href} />
+                ))}
             </div>
             <div className="social-buttons right">
-                <SocialButtonRight icon="fa-github" />
-                <SocialButtonRight icon="fa-twitter" />
+                {socialMediaRight.map((data, index) => (
+                    <SocialButton icon={data.icon} link={data.href} />
+                ))}
             </div>
         </>
     );
@@ -60,14 +65,6 @@ function SocialButton({ icon }) {
     return (
         <button>
             <i className={`fa-brands ${icon}`}></i>
-        </button>
-    );
-}
-
-function SocialButtonRight({ icon }) {
-    return (
-        <button>
-            <i class={`fa-brands ${icon}`}></i>
         </button>
     );
 }
