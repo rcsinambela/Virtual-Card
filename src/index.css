@@ -41,7 +41,7 @@ body {
     height: 360px;
     color: #fffff9;
     border-radius: 1rem 1rem 0 0;
-    background: url("https://i.pinimg.com/564x/fb/ca/55/fbca559bda6a4a5582ee8124236712d3.jpg")
+    background: url("https://rycs123.github.io/Portfolio/assets/images/profile-img.jpeg")
         no-repeat center top;
     transition: background-size 1.5s ease-in-out;
     background-size: 100%;
@@ -111,7 +111,7 @@ body {
 
 .card .top .text .name-wrapper {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     margin-bottom: 0.25rem;
 }
@@ -152,14 +152,14 @@ body {
     justify-content: center;
     align-items: center;
     margin-right: 0.5rem;
-    color: #1d252c;
+    color: #d4c7c7f3;
     font-size: 0.7rem;
     background-color: #1261a0;
     border-radius: 1em;
 }
 
 .height {
-    color: #fffff9;
+    color: #ffffffc5;
 }
 
 .card .bottom .buttons button i {
