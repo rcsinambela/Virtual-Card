@@ -38,16 +38,11 @@ function SocialButton({ icon }) {
     );
 }
 
-function SocialButtonRight() {
+function SocialButtonRight({ icon }) {
     return (
-        <div className="social-buttons right">
-            <button>
-                <i class="fa-brands fa-github"></i>
-            </button>
-            <button>
-                <i class="fa-brands fa-x-twitter"></i>
-            </button>
-        </div>
+        <button>
+            <i class={`fa-brands ${icon}`}></i>
+        </button>
     );
 }
 
